@@ -1,11 +1,14 @@
 import { useState } from "react";
 import "./css/styles.css";
 import ProductCard from "./components/ProductCard";
+import Products from "./data/products";
 
-function App() {
+function App() {  
   return (
     <div className="container">
-      <ProductCard />
+      {Products.map(Product => {
+        return <ProductCard Product={Product} />
+      })}
     </div>
   )
 }
