@@ -1,4 +1,5 @@
 import "../css/ProductCard.css";
+import Button from "./Button";
 
 function ProductCard({product}) {
   return (
@@ -14,7 +15,7 @@ function ProductCard({product}) {
                     <div className="product-name">{product.name}</div>
                     <div className="product-description">{product.description}</div>
                     <div className="product-price">&#8369; {product.price.toLocaleString()}</div>
-                     <button>Buy Now</button>
+                    <Button name={product.name}/>
                 </div>
             </div>
         </div>
