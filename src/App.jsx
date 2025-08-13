@@ -1,9 +1,11 @@
-import { useState } from 'react'
-import "./css/reset.css";
+import { useState } from "react";
+import "./css/styles.css";
+import ProductCard from "./components/ProductCard";
 
 function App() {
   return (
-    <div>
+    <div className="container">
+      <ProductCard />
     </div>
   )
 }
