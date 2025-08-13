@@ -14,7 +14,7 @@ function ProductCard() {
                     <div className="product-name">Sapphire PULSE Radeon RX 9070 (Model 11349-03-20G)</div>
                     <div className="product-description">The Sapphire PULSE Radeon RX 9070 (Model 11349-03-20G) is a powerful, visually sophisticated gaming graphics card built on AMD’s latest RDNA 4 architecture, delivering a balance of performance, efficiency, and visual finesse ideal for modern gaming and creative workloads.</div>
                     <div className="product-price">$758.43</div>
-                   
+                     <button>Buy Now</button>
                 </div>
             </div>
         </div>
