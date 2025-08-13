@@ -6,8 +6,8 @@ import Products from "./data/products";
 function App() {  
   return (
     <div className="container">
-      {Products.map(Product => {
-        return <ProductCard Product={Product} />
+      {Products.map(product => {
+        return <ProductCard key={product.id} product={product} />
       })}
     </div>
   )
