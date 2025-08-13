@@ -39,6 +39,17 @@ img {
     font-weight: 700;
     font-size: 24px;
     color: #1f2937;
+    cursor: pointer;
+    transition: all 100ms;
+}
+
+.product-name:hover {
+    color: #0065e0;
+}
+
+.product-name:active {
+    color: #003474;
+    transition: none;
 }
 
 .product-description {
